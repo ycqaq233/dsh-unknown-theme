@@ -31,7 +31,7 @@
 
 ```sh
 # 从 git 仓库安装（推荐，发布到 npm 后可改用包名）
-dsh plugin --profile web add <你的GitHub>/dsh-unknown-theme
+dsh plugin --profile web add ycqaq233/dsh-unknown-theme
 
 # 或本地路径
 dsh plugin --profile web add /path/to/dsh-unknown-theme
@@ -43,7 +43,7 @@ dsh plugin --profile web add /path/to/dsh-unknown-theme
 <summary><b>从源码安装 / 开发（可选）</b></summary>
 
 ```text
-1. git clone <你的GitHub>/dsh-unknown-theme.git
+1. git clone ycqaq233/dsh-unknown-theme.git
 2. ~/.dsh/profiles/web/package.json 的 dependencies 写 "dsh-unknown-theme": "link:<克隆目录绝对路径>"
 3. ~/.dsh/profiles/web/cordis.patch.yml 追加挂载行：
    - insert:
