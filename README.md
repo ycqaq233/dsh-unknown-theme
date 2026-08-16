@@ -1,4 +1,4 @@
-# dsh-deepseek-theme
+# dsh-unknown-theme
 
 <!-- Hero -->
 <div align="center">
@@ -31,10 +31,10 @@
 
 ```sh
 # 从 git 仓库安装（推荐，发布到 npm 后可改用包名）
-dsh plugin --profile web add <你的GitHub>/dsh-deepseek-theme
+dsh plugin --profile web add <你的GitHub>/dsh-unknown-theme
 
 # 或本地路径
-dsh plugin --profile web add /path/to/dsh-deepseek-theme
+dsh plugin --profile web add /path/to/dsh-unknown-theme
 ```
 
 装完**硬刷新浏览器**（Cmd/Ctrl+Shift+R）即可看到主题。主题在页面加载时自动生效，无需每次会话手动开启。
@@ -43,12 +43,12 @@ dsh plugin --profile web add /path/to/dsh-deepseek-theme
 <summary><b>从源码安装 / 开发（可选）</b></summary>
 
 ```text
-1. git clone <你的GitHub>/dsh-deepseek-theme.git
-2. ~/.dsh/profiles/web/package.json 的 dependencies 写 "dsh-deepseek-theme": "link:<克隆目录绝对路径>"
+1. git clone <你的GitHub>/dsh-unknown-theme.git
+2. ~/.dsh/profiles/web/package.json 的 dependencies 写 "dsh-unknown-theme": "link:<克隆目录绝对路径>"
 3. ~/.dsh/profiles/web/cordis.patch.yml 追加挂载行：
    - insert:
-       - id: deepseek-theme
-         name: 'dsh-deepseek-theme'
+       - id: unknown-theme
+         name: 'dsh-unknown-theme'
 4. 在 ~/.dsh/profiles/web 执行 pnpm install
 5. 硬刷新浏览器即可生效
 ```
@@ -70,7 +70,7 @@ dsh plugin --profile web add /path/to/dsh-deepseek-theme
 
 ## 🛠️ 工作原理
 
-- **`cordis.patch.yml`**：声明插件行（`deepseek-theme`），注入 web profile
+- **`cordis.patch.yml`**：声明插件行（`unknown-theme`），注入 web profile
 - **`lib/client.js`**：整个主题的单一文件——CSS 注入、WebGL 流体渲染、网格渲染、粒子系统、聚光灯、主题监听（MutationObserver 跟随 `color-scheme`）；SVG 折射滤镜定义保留但已不再引用，当前玻璃质感为纯 `backdrop-filter` 磨砂
 - **`lib/index.js`**：Host 半（no-op）
 
