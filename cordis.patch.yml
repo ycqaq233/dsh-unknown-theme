@@ -1,0 +1,9 @@
+# dsh-deepseek-theme bundle patch
+#
+# This file is the `dsh.bundle.patch` layer of the plugin. When the web
+# profile boot composes its bundle stack, this patch mounts the theme
+# plugin into the Cordis tree so the harness collects its `./client`
+# entry (pure CSS/DOM, loaded via `window.__ModuleLoader__.load`).
+- insert:
+    - id: deepseek-theme
+      name: 'dsh-deepseek-theme'

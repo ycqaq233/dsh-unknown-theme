@@ -1,0 +1,26 @@
+{
+  "name": "dsh-deepseek-theme",
+  "version": "1.0.0",
+  "description": "DeepSeek 官网视觉主题：玻璃渐变背景（双模式）、磨砂玻璃输入卡、标题聚光灯圆环、粒子鱼形 LOGO。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
