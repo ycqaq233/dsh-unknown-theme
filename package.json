@@ -1,7 +1,7 @@
 {
   "name": "dsh-deepseek-theme",
   "version": "1.0.0",
-  "description": "DeepSeek 官网视觉主题：玻璃渐变背景（双模式）、磨砂玻璃输入卡、标题聚光灯圆环、粒子鱼形 LOGO。",
+  "description": "DeepSeek 官网视觉主题：官网流体渐变背景 + 交互网格 + 粒子鱼 LOGO + 标题聚光灯 + 官网质感磨砂玻璃（双模式）",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
