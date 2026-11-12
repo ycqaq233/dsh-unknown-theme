@@ -41,9 +41,9 @@
 > 真机效果，非概念图。浅色 / 深色 × 主页 / 对话，共四张。
 
 <p align="center">
-  <img src="assets/浅色主页.png" alt="浅色主页" width="46%"/>
+  <img src="assets/preview-light.gif" alt="浅色主页" width="46%"/>
   &nbsp;&nbsp;
-  <img src="assets/深色主页.png" alt="深色主页" width="46%"/><br />
+  <img src="assets/preview-dark.gif" alt="深色主页" width="46%"/><br />
   <img src="assets/浅色对话.png" alt="浅色对话" width="46%"/>
   &nbsp;&nbsp;
   <img src="assets/深色对话.png" alt="深色对话" width="46%"/>
